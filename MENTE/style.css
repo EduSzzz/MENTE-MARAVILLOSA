@@ -1,0 +1,149 @@
+/* Estilos globales para toda la página */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #FF5722;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+.header-content {
+    position: relative;
+}
+
+.header-content img {
+    max-width: 15%;
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.director {
+    text-align: center;
+}
+
+.director h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.director img {
+    max-width: 30%;
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+.extra-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.extra-images img {
+    max-width: 20%;
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para las secciones de la página */
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Estilos para los títulos de las secciones */
+section h2 {
+    color: #FF5722;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilos para la lista de integrantes en el footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para dispositivos móviles (responsive) */
+@media (max-width: 768px) {
+    header img {
+        width: 80%;
+        margin: 20px 0;
+    }
+    
+    header h1 {
+        font-size: 28px;
+    }
+
+    .menu {
+        font-size: 18px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+}
